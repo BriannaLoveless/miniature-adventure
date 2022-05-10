@@ -5,7 +5,7 @@
     margin: auto; 
 }
 
-.card-content-wrapper {
+.card-content-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,4 +29,18 @@
     flex-wrap: wrap;
     width: 160px;
     height: 110px;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.die {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
 }
